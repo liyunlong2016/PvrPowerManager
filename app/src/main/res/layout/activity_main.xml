@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/bt_shutdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:onClick="shutDownClick"
+        android:text="@string/shutdown" />
+
+    <Button
+        android:id="@+id/bt_reboot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_shutdown"
+        android:layout_marginTop="40dp"
+        android:onClick="reBootClick"
+        android:text="@string/reboot" />
+
+    <Button
+        android:id="@+id/bt_gotosleep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_reboot"
+        android:layout_marginTop="40dp"
+        android:onClick="goToSleepClick"
+        android:text="@string/gotosleep" />
+
+    <Button
+        android:id="@+id/bt_wakeup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_gotosleep"
+        android:layout_marginTop="40dp"
+        android:onClick="wakeUpClick"
+        android:text="@string/wakeup" />
+
+</RelativeLayout>

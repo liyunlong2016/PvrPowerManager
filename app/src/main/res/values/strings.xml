@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PvrPowerManager</string>
+    <string name="shutdown">关机</string>
+    <string name="reboot">重启</string>
+    <string name="gotosleep">关闭屏幕</string>
+    <string name="wakeup">点亮屏幕</string>
+</resources>
